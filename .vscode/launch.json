@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "ts-node",
+      "request": "launch",
+      "name": "Run Express App",
+      "program": "${workspaceFolder}/src/server.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeArgs": ["--inspect-brk"],
+      "env": {
+        "HOST": "0.0.0.0",
+        "PORT": "3000"
+      }
+    }
+  ]
+}
+
+  
+  
